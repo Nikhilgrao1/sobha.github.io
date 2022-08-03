@@ -45,6 +45,22 @@
       border: 3px solid #000000;
   }
 
+/* Detailed Project */
+
+.projectText.card {
+    height: 100%;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  .projectText:hover {
+      border: 3px solid #000000;
+  }
+  h6{
+    justify-content: center;
+    text-align: center;
+  }
+
 /* Download Resume Function */
 .download.card{
   height: 200px;
@@ -71,8 +87,18 @@
     text-align: center;
     width: 100%;
 }
+
+.serviceIcon {
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
+}
+
 .card-title {
     text-align: center;
+}
+.card-title2 {
+    text-align: left;
 }
 .card:hover .servicesIcon {
     color: #008000;
@@ -97,7 +123,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
     color: #008000;
 }
 .fab {
